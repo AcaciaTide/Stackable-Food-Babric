@@ -18,7 +18,7 @@ public class FoodItemMixin extends Item {
     @Inject(method = "<init>(IIZ)V", at = @At("RETURN"))
     private void onInit(int id, int healthRestored, boolean meat, CallbackInfo ci) {
         // デバッグ用: アイテムのインスタンス化タイミング確認
-        System.out.println("[StackableFood] FoodItem created! ID: " + id);
+        //System.out.println("[StackableFood] FoodItem created! ID: " + id);
         
         // とりあえずコンストラクタ時点での上書きを試行する
         if (StackableFoodStAPI.config != null && StackableFoodStAPI.config.maxFoodStackSize != null) {
