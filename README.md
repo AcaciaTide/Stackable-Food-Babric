@@ -1,6 +1,6 @@
-# Stackable Food StationAPI
+# Stackable Food Babric
 
-A Minecraft Beta 1.7.3 mod powered by StationAPI that allows food items to be stackable, eliminating the vanilla restriction of carrying only one food item per slot.
+A Minecraft Beta 1.7.3 Babric mod that allows food items to be stackable, eliminating the vanilla restriction of carrying only one food item per slot.
 
 ## Features
 - **Stackable Foods:** Food items now stack up to 64 by default.
@@ -10,8 +10,9 @@ A Minecraft Beta 1.7.3 mod powered by StationAPI that allows food items to be st
 ## Requirements
 - Minecraft Beta 1.7.3
 - Fabric Loader
-- [StationAPI](https://github.com/ModificationStation/StationAPI)
 - [GlassConfigAPI](https://github.com/calmilamsy/glass-config-api)
+
+*Note: Fully compatible with StationAPI environments, but does not strictly require it.*
 
 ## License
 Available under the MIT license. Feel free to use this in your modpacks!
