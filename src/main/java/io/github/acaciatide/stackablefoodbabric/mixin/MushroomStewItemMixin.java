@@ -1,4 +1,4 @@
-package io.github.acaciatide.stackablefoodstapi.mixin;
+package io.github.acaciatide.stackablefoodbabric.mixin;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;

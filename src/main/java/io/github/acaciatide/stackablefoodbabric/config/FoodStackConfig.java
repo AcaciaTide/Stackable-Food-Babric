@@ -1,4 +1,4 @@
-package io.github.acaciatide.stackablefoodstapi.config;
+package io.github.acaciatide.stackablefoodbabric.config;
 
 import net.glasslauncher.mods.gcapi3.api.ConfigEntry;
 

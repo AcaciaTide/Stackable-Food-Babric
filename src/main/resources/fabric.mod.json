@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "stackablefoodstapi",
+  "id": "stackablefoodbabric",
   "version": "${version}",
-  "name": "Stackable Food StationAPI",
-  "description": "A StationAPI mod that makes food stackable. Limits can be configured via GlassConfigAPI.",
+  "name": "Stackable Food Babric",
+  "description": "A Babric mod that makes food stackable. Limits can be configured via GlassConfigAPI.",
   "authors": [
     "AcaciaTide"
   ],
@@ -15,16 +15,15 @@
   "environment": "*",
   "entrypoints": {
     "gcapi3": [
-      "io.github.acaciatide.stackablefoodstapi.StackableFoodStAPI"
+      "io.github.acaciatide.stackablefoodbabric.StackableFoodBabric"
     ]
   },
   "mixins": [
-    "stackablefoodstapi.mixins.json"
+    "stackablefoodbabric.mixins.json"
   ],
   "depends": {
     "minecraft": "1.0.0-beta.7.3",
     "fabricloader": ">=0.14.0",
-    "stationapi": "*",
     "gcapi3": ">=3.2.5"
   }
 }

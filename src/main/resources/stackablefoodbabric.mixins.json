@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "io.github.acaciatide.stackablefoodstapi.mixin",
+  "package": "io.github.acaciatide.stackablefoodbabric.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "FoodItemMixin",
