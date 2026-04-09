@@ -8,10 +8,10 @@
     "AcaciaTide"
   ],
   "contact": {
-    "sources": "https://github.com/AcaciaTide/Stackable-Food-StationAPI"
+    "sources": "https://github.com/AcaciaTide/Stackable-Food-Babric"
   },
   "license": "MIT",
-  "icon": "assets/stackablefoodstapi/icon.png",
+  "icon": "assets/stackablefoodbabric/icon.png",
   "environment": "*",
   "entrypoints": {
     "gcapi3": [

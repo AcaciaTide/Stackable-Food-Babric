@@ -73,9 +73,7 @@ dependencies {
 	implementation("org.jetbrains:annotations:23.0.0")
 	implementation("com.google.guava:guava:33.2.1-jre")
 
-	// StAPI itself.
-	// transitiveImplementation tells babric loom that you want this dependency to be pulled into other mod's development workspaces. Best used ONLY for required dependencies.
-	modImplementation("net.modificationstation:StationAPI:${project.properties["stationapi_version"]}")
+
 
 	// Extra mods.
 	// https://github.com/calmilamsy/glass-config-api
