@@ -2,19 +2,16 @@
   "schemaVersion": 1,
   "id": "stackablefoodstapi",
   "version": "${version}",
-
   "name": "Stackable Food StationAPI",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A StationAPI mod that makes food stackable. Limits can be configured via GlassConfigAPI.",
   "authors": [
     "AcaciaTide"
   ],
   "contact": {
-    "sources": "https://github.com/calmilamsy/stationapi-example-mod"
+    "sources": "https://github.com/AcaciaTide/Stackable-Food-StationAPI"
   },
-
   "license": "MIT",
   "icon": "assets/stackablefoodstapi/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "gcapi3": [
@@ -23,15 +20,12 @@
     "stationapi:event_bus": [
       "io.github.acaciatide.stackablefoodstapi.events.init.InitListener"
     ],
-    "stationapi:event_bus_client": [
-    ],
-    "stationapi:event_bus_server": [
-    ]
+    "stationapi:event_bus_client": [],
+    "stationapi:event_bus_server": []
   },
   "mixins": [
     "stackablefoodstapi.mixins.json"
   ],
-
   "depends": {
     "minecraft": "1.0.0-beta.7.3"
   }
