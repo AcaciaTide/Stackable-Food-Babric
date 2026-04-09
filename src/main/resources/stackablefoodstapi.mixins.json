@@ -1,15 +1,11 @@
 {
   "required": true,
-  "minVersion": "0.8",
   "package": "io.github.acaciatide.stackablefoodstapi.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "ExampleMixin"
+    "FoodItemMixin"
   ],
-  "server": [
-  ],
-  "client": [
-  ],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }
