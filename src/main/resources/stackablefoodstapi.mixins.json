@@ -3,7 +3,8 @@
   "package": "io.github.acaciatide.stackablefoodstapi.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "FoodItemMixin"
+    "FoodItemMixin",
+    "MushroomStewItemMixin"
   ],
   "client": [],
   "injectors": {
