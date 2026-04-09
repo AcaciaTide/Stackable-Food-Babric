@@ -14,4 +14,4 @@ A Minecraft Beta 1.7.3 mod powered by StationAPI that allows food items to be st
 - [GlassConfigAPI](https://github.com/calmilamsy/glass-config-api)
 
 ## License
-Available under the MIT license.
+Available under the MIT license. Feel free to use this in your modpacks!
