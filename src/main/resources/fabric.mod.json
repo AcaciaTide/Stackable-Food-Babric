@@ -16,12 +16,7 @@
   "entrypoints": {
     "gcapi3": [
       "io.github.acaciatide.stackablefoodstapi.StackableFoodStAPI"
-    ],
-    "stationapi:event_bus": [
-      "io.github.acaciatide.stackablefoodstapi.events.init.InitListener"
-    ],
-    "stationapi:event_bus_client": [],
-    "stationapi:event_bus_server": []
+    ]
   },
   "mixins": [
     "stackablefoodstapi.mixins.json"
