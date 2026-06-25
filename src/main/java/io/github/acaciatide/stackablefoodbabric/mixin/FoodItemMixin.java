@@ -20,7 +20,8 @@ public class FoodItemMixin extends Item {
         if (StackableFoodBabric.config != null && StackableFoodBabric.config.maxFoodStackSize != null) {
             this.maxCount = StackableFoodBabric.config.maxFoodStackSize;
         } else {
-            // System.out.println("[StackableFood] WARNING: Config is not loaded yet!");
+            // 設定がロードされていないことを警告する
+            StackableFoodBabric.LOGGER.warn("Config is not loaded yet!");
         }
     }
 }
